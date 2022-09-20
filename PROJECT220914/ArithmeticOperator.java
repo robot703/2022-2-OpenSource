@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class ArithmeticOperator {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ");
-		int time = scanner.nextInt(); 
-		int second = time % 60; 
-		int minute = (time / 60) % 60; 
-		int hour = (time / 60) / 60; 
-		System.out.print(time + "ì´ˆëŠ” ");
-		System.out.print(hour + "ì‹œê°„, ");
-		System.out.print(minute + "ë¶„, ");
-		System.out.println(second + "ì´ˆìž…ë‹ˆë‹¤.");
+		System.out.print("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+		int time = scanner.nextInt(); // Á¤¼ö ÀÔ·Â
+		int second = time % 60; // 60À¸·Î ³ª´« ³ª¸ÓÁö´Â ÃÊ
+		int minute = (time / 60) % 60; // 60À¸·Î ³ª´« ¸òÀ» ´Ù½Ã 60À¸·Î ³ª´« ³ª¸ÓÁö´Â ºÐ
+		int hour = (time / 60) / 60; // 60À¸·Î ³ª´« ¸òÀ» ´Ù½Ã 60À¸·Î ³ª´« ¸òÀº ½Ã°£
+		System.out.print(time + "ÃÊ´Â ");
+		System.out.print(hour + "½Ã°£, ");
+		System.out.print(minute + "ºÐ, ");
+		System.out.println(second + "ÃÊÀÔ´Ï´Ù.");
 			
 		scanner.close();
 	}

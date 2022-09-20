@@ -6,7 +6,7 @@ public class CircleArea {
 		double radius = 10.0; 
 		double circleArea = radius*radius*PI; 
 
-		System.out.println("ì›ì˜ ë©´ì  = " + circleArea);
+		System.out.println("¿øÀÇ ¸éÀû = " + circleArea);
 	}
 }
 
